@@ -8,16 +8,16 @@ const Navbar = () => {
       </div>
       <ul style={{ display: 'flex', listStyleType: 'none', margin: 0, padding: 0 }}>
         <li style={{ margin: '0 15px' }}>
-          <a href="#" style={{ color: 'white', textDecoration: 'none' }}>Home</a>
+          <button style={{ color: 'white', textDecoration: 'none', background: 'none', border: 'none', cursor: 'pointer' }}>Home</button>
         </li>
         <li style={{ margin: '0 15px' }}>
-          <a href="#" style={{ color: 'white', textDecoration: 'none' }}>Genres</a>
+          <button style={{ color: 'white', textDecoration: 'none', background: 'none', border: 'none', cursor: 'pointer' }}>Genres</button>
         </li>
         <li style={{ margin: '0 15px' }}>
-          <a href="#" style={{ color: 'white', textDecoration: 'none' }}>Artists</a>
+          <button style={{ color: 'white', textDecoration: 'none', background: 'none', border: 'none', cursor: 'pointer' }}>Artists</button>
         </li>
         <li style={{ margin: '0 15px' }}>
-          <a href="#" style={{ color: 'white', textDecoration: 'none' }}>About</a>
+          <button style={{ color: 'white', textDecoration: 'none', background: 'none', border: 'none', cursor: 'pointer' }}>About</button>
         </li>
       </ul>
     </nav>
