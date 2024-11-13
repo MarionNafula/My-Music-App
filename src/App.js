@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import Header from './components/Header';
+import Navbar from './components/Navbar';
+// import Header from './components/Header';
 import SongList from './components/SongList';
 import SongDetail from './components/SongDetail';
 import Footer from './components/Footer';
@@ -26,7 +27,8 @@ const App = () => {
 
   return (
     <div>
-      <Header />
+      <Navbar />
+      {/* <Header /> */}
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
         <SongList songs={songs} onSongClick={handleSongClick} />
         {selectedSong && <SongDetail song={selectedSong} />}
