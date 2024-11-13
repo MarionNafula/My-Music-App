@@ -105,13 +105,7 @@
         "Artist":"Daddy Yankee",   
         "Cover": "https://upload.wikimedia.org/wikipedia/en/1/16/Daddy_Yankee_Gasolina_cover_art.png"
       },   
-      {  
-        "id":"16",
-        "Song":"Say So",
-        "Genre": "Pop",
-        "Artist":"Doja Cat",   
-        "Cover": "https://upload.wikimedia.org/wikipedia/en/d/df/Say_So_-_Doja_Cat.png"
-      },
+      
       
      {  
         "id":"17",
