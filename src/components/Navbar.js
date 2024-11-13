@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -8,16 +9,16 @@ const Navbar = () => {
       </div>
       <ul style={{ display: 'flex', listStyleType: 'none', margin: 0, padding: 0 }}>
         <li style={{ margin: '0 15px' }}>
-          <button style={{ color: 'white', textDecoration: 'none', background: 'none', border: 'none', cursor: 'pointer' }}>Home</button>
+          <Link to="/" style={{ color: 'white', textDecoration: 'none' }}>Home</Link>
         </li>
         <li style={{ margin: '0 15px' }}>
-          <button style={{ color: 'white', textDecoration: 'none', background: 'none', border: 'none', cursor: 'pointer' }}>Genres</button>
+          <Link to="/genres" style={{ color: 'white', textDecoration: 'none' }}>Genres</Link>
         </li>
         <li style={{ margin: '0 15px' }}>
-          <button style={{ color: 'white', textDecoration: 'none', background: 'none', border: 'none', cursor: 'pointer' }}>Artists</button>
+          <Link to="/artists" style={{ color: 'white', textDecoration: 'none' }}>Artists</Link>
         </li>
         <li style={{ margin: '0 15px' }}>
-          <button style={{ color: 'white', textDecoration: 'none', background: 'none', border: 'none', cursor: 'pointer' }}>About</button>
+          <Link to="/about" style={{ color: 'white', textDecoration: 'none' }}>About</Link>
         </li>
       </ul>
     </nav>
