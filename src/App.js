@@ -6,6 +6,7 @@ import SongList from './components/SongList';
 import SongDetail from './components/SongDetail';
 import Footer from './components/Footer';
 import SearchBar from './components/SearchBar';
+import AddSongForm from './components/AddSongForm';
 
 const Home = ({ songs, onSongClick }) => (
   <div>
@@ -36,6 +37,10 @@ const App = () => {
     setSelectedSong(song);
   };
 
+  const addSong = (newSong) => {
+    setSongs([...songs, { ...newSong, id: (songs.length + 1).toString() }]);
+  };
+
   // Filter songs based on the search query
   const filteredSongs = songs.filter(song =>
     song.Song.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -47,6 +52,7 @@ const App = () => {
     <Router>
       <Navbar />
       <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+      <AddSongForm addSong={addSong} />
       <Routes>
         <Route path="/" element={<Home songs={filteredSongs} onSongClick={handleSongClick} />} />
         <Route path="/about" element={<About />} />
