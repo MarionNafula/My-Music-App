@@ -28,7 +28,7 @@ npm install
 
 ### Start the development server
 npm start
-This will start the app in development mode. Open http://localhost:3000 to view it in your browser.
+This will start the app in development mode. Open https://music-app-hrtw.onrender.com to view it in your browser.
 
 ## Project Structure
 src/
