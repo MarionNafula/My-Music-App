@@ -1,11 +1,11 @@
 import React from 'react';
 import SongCard from './SongCard';
 
-const SongList = ({ songs, onSongClick }) => {
+const SongList = ({ songs }) => {
   return (
-    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
+    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
       {songs.map(song => (
-        <SongCard key={song.id} song={song} onClick={onSongClick} />
+        <SongCard key={song.id} song={song} />
       ))}
     </div>
   );
