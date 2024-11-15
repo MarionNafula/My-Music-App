@@ -7,6 +7,7 @@ import SongDetail from './components/SongDetail';
 import Footer from './components/Footer';
 import SearchBar from './components/SearchBar';
 import AddSongForm from './components/AddSongForm';
+import Genres from './components/Genres';  // Import Genres Component
 
 const Home = ({ songs, onSongClick }) => (
   <div>
@@ -14,8 +15,7 @@ const Home = ({ songs, onSongClick }) => (
   </div>
 );
 
-const About = () => <div><h2>About Us</h2><p>This React Music Website is designed as a modern, interactive platform for users to explore a wide variety of songs from different genres, artists, and styles. The primary goal of this project is to showcase a clean and intuitive user interface that allows music lovers to easily search for, discover, and manage a personal collection of songs.</p></div>;
-const Genres = () => <div><h2>Genres</h2><p>Explore various music genres.</p></div>;
+const About = () => <div><h2>About Us</h2><p>Information about the music website.</p></div>;
 const Artists = () => <div><h2>Artists</h2><p>List of popular artists.</p></div>;
 
 const App = () => {
@@ -56,7 +56,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home songs={filteredSongs} onSongClick={handleSongClick} />} />
         <Route path="/about" element={<About />} />
-        <Route path="/genres" element={<Genres />} />
+        <Route path="/genres" element={<Genres />} /> {/* Genres Route */}
         <Route path="/artists" element={<Artists />} />
       </Routes>
       {selectedSong && <SongDetail song={selectedSong} />}
