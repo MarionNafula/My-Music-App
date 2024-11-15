@@ -15,8 +15,28 @@ const Home = ({ songs, onSongClick }) => (
   </div>
 );
 
-const About = () => <div><h2>About Us</h2><p>Information about the music website.</p></div>;
-const Artists = () => <div><h2>Artists</h2><p>List of popular artists.</p></div>;
+const About = () => <div><h2>About Us</h2><p>This React Music Website is designed as a modern, interactive platform for users to explore a wide variety of songs from different genres, artists, and styles. The primary goal of this project is to showcase a clean and intuitive user interface that allows music lovers to easily search for, discover, and manage a personal collection of songs.</p></div>;
+const Artists = () =>
+ <div>
+    <h2>Artists</h2>
+    <p>Based on the song data provided in the db.json, here are the artists featured on the website:.</p>
+    <ul>
+      <li>Victony</li>
+      <li>Tempoe</li>
+      <li>Bayani</li>
+      <li>1da Banton</li>
+      <li>Ruger</li>
+      <li>Burna Boy</li>
+      <li>Bad and Bouje</li>
+      <li>Dababy</li>
+      <li>Rae Sremmurd</li>
+      <li>Pop Smoke</li>
+      <li>Post Malone</li>
+      <li>Ozuna</li>
+      <li>Natti Natasha</li>
+      <li>J Balvin</li>
+    </ul>
+  </div>;
 
 const App = () => {
   const [songs, setSongs] = useState([]);
