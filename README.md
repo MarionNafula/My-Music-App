@@ -19,7 +19,7 @@ A modern music website built with React, designed to showcase and interact with 
 Follow these steps to set up the project on your local machine.
 
 ### 1. Clone the repository
-git clone https://github.com/your-username/music-website.git
+git clone git@github.com:MarionNafula/My-Music-App.git
 cd music-website
 
 ### Install dependencies
@@ -70,7 +70,7 @@ Feel free to fork this project, make changes, and submit pull requests. We welco
 
 ### How to Contribute:
 1.Fork the repository.
-2.Clone your forked repo: git clone https://github.com/your-username/music-website.git
+2.Clone your forked repo: git clone git@github.com:MarionNafula/My-Music-App.git
 3.Create a new branch: git checkout -b feature-name
 4.Make your changes and commit them.
 5.Push to the branch: git push origin feature-name
