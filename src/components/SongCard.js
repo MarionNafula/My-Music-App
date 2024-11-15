@@ -20,7 +20,7 @@ const SongCard = ({ song }) => {
       margin: '10px', 
       width: '250px', 
       textAlign: 'center', 
-      boxShadow: '0 4px 8px rgba(0,0,0,0.1)' 
+      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', 
     }}>
       <img 
         src={song.Cover} 
@@ -29,7 +29,7 @@ const SongCard = ({ song }) => {
           width: '100%', 
           height: '250px', 
           objectFit: 'cover', 
-          borderRadius: '8px 8px 0 0' 
+          borderRadius: '8px 8px 0 0', 
         }} 
       />
       <h3 style={{ fontSize: '18px', margin: '10px 0' }}>{song.Song}</h3>
