@@ -85,7 +85,8 @@ Feel free to fork this project, make changes, and submit pull requests. We welco
 ## Contact
 For any inquiries, please contact wekesamarion100@gmail.com
 
-## This project is licensed under the MIT License - see the LICENSE file for details.
+##  LICENSE
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 
