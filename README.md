@@ -31,64 +31,44 @@ npm start
 This will start the app in development mode. Open https://music-app-hrtw.onrender.com to view it in your browser.
 
 ## Project Structure
-src/
-  components/
-    Navbar.js        - Navigation bar component
-    SongList.js      - Displays a list of songs
-    SongCard.js      - Represents individual song cards
-    SongDetail.js    - Displays detailed song info
-    SearchBar.js     - Search bar to filter songs
-    Footer.js        - Footer component
-  App.js             - Main app component
-  App.css            - Styles for the website
-  index.js           - Entry point of the app
+- **src/**
+-  **components/**
+-    **Navbar.js**        - Navigation bar component
+-    **SongList.js**      - Displays a list of songs
+-    **SongCard.js**      - Represents individual song cards
+-    **SongDetail.js**    - Displays detailed song info
+-    **SearchBar.js**     - Search bar to filter songs
+-    **Footer.js**        - Footer component
+-  **App.js**             - Main app component
+-  **App.css**            - Styles for the website
+-  **index.js**           - Entry point of the app
 
 ## API
-This project fetches song data from a local JSON server. Below is a sample of the song data:
-{
-  "Songs": [
-    {
-      "id": "1",
-      "Song": "Soweto",
-      "Genre": "Afro music",
-      "Artist": "Victony ,Tempoe",
-      "Cover": "https://images.genius.com/7b0131f3024fd96bb402695238fceb9d.1000x1000x1.jpg"
-    },
-    {
-      "id": "2",
-      "Song": "Ta Ta Ta",
-      "Genre": "Afro music",
-      "Artist": "Bayani",
-      "Cover": "https://www.citimuzik.com/wp-content/uploads/2022/08/28AB0A1A-5D70-4C99-880E-5D37D7C446DE-1.jpeg"
-    }
-    ...
-  ]
-}
-
+This project fetches song data from a local JSON server.
 
 ## Backend API
-Repository:https://github.com/MarionNafula/Music-App
-Deployed API:https://music-app-hrtw.onrender.com
+- **Repository:https://github.com/MarionNafula/Music-App**
+- **Deployed API:https://music-app-hrtw.onrender.com**
 
 ## View live site
-Visit the deployed live site at:my-music-app-pi.vercel.app
+Visit the deployed live site at: my-music-app-pi.vercel.app
 
 ## Contributing
 Feel free to fork this project, make changes, and submit pull requests. We welcome contributions to improve the website.
 
 ### How to Contribute:
-1.Fork the repository.
-2.Clone your forked repo: git clone git@github.com:MarionNafula/My-Music-App.git
-3.Create a new branch: git checkout -b feature-name
-4.Make your changes and commit them.
-5.Push to the branch: git push origin feature-name
-6.Submit a pull request. 
+- **1.Fork the repository.**
+- **2.Clone your forked repo: git clone git@github.com:MarionNafula/My-Music-App.git**
+- **3.Create a new branch: git checkout -b feature-name**
+- **4.Make your changes and commit them.**
+- **5.Push to the branch: git push origin feature-name**
+- **6.Submit a pull request.** 
 
 ## Acknowledgements
-*React for building the user interface.
-*Axios for handling HTTP requests.
-*React Router for managing client-side routing.
-*JSON Server for simulating an API.
+- **React for building the user interface.**
+- **Axios for handling HTTP requests.**
+- **React Router for managing client-side routing.**
+- **JSON Server for simulating an API.**
 
 ## Contact
 For any inquiries, please contact wekesamarion100@gmail.com
