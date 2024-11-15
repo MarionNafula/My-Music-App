@@ -44,7 +44,7 @@ const App = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
-    axios.get('http://localhost:5000/Songs')
+    axios.get('https://music-app-hrtw.onrender.com/Songs')
       .then(response => {
         setSongs(response.data);
       })
