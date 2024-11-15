@@ -1,5 +1,4 @@
 # React Music Website
-
 A modern music website built with React, designed to showcase and interact with music songs. Users can browse songs, view detailed information, search for specific songs, and even like/dislike songs.
 
 ## Features
@@ -11,26 +10,23 @@ A modern music website built with React, designed to showcase and interact with 
 - **Responsive Design**: The website is fully responsive, providing a great user experience across all devices.
 
 ## Tech Stack
-
 - **Frontend**: React.js, Axios
 - **Routing**: React Router
 - **State Management**: React useState, useEffect hooks
 - **Styling**: Custom CSS
 
 ## Installation
-
 Follow these steps to set up the project on your local machine.
 
 ### 1. Clone the repository
-
-```bash
-git clone git@github.com:MarionNafula/My-Music-App.git
+git clone https://github.com/your-username/music-website.git
 cd music-website
 
-### 2. Install dependencies
+### Install dependencies
+Make sure you have Node.js installed on your machine. Then run:
 npm install
 
-### 3. Start the development server
+### Start the development server
 npm start
 This will start the app in development mode. Open http://localhost:3000 to view it in your browser.
 
@@ -74,15 +70,22 @@ Feel free to fork this project, make changes, and submit pull requests. We welco
 
 ### How to Contribute:
 1.Fork the repository.
-2.Clone your forked repo: git clone git@github.com:MarionNafula/My-Music-App.git
+2.Clone your forked repo: git clone https://github.com/your-username/music-website.git
 3.Create a new branch: git checkout -b feature-name
 4.Make your changes and commit them.
 5.Push to the branch: git push origin feature-name
-5.Submit a pull request.
+6.Submit a pull request. 
+
+## Acknowledgements
+*React for building the user interface.
+*Axios for handling HTTP requests.
+*React Router for managing client-side routing.
+*JSON Server for simulating an API.
 
 ## Contact
 For any inquiries, please contact wekesamarion100@gmail.com
 
-## License
-his project is licensed under the MIT License - see the LICENSE file for details.
+## This project is licensed under the MIT License - see the LICENSE file for details.
+
+
 
