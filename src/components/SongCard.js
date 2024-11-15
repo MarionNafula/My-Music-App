@@ -27,7 +27,7 @@ const SongCard = ({ song }) => {
         alt={song.Song} 
         style={{ 
           width: '100%', 
-          height: '150px', 
+          height: '250px', 
           objectFit: 'cover', 
           borderRadius: '8px 8px 0 0' 
         }} 
