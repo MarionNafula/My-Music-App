@@ -65,6 +65,14 @@ This project fetches song data from a local JSON server. Below is a sample of th
   ]
 }
 
+
+## Backend API
+Repository:https://github.com/MarionNafula/Music-App
+Deployed API:https://music-app-hrtw.onrender.com
+
+## View live site
+Visit the deployed live site at:my-music-app-pi.vercel.app
+
 ## Contributing
 Feel free to fork this project, make changes, and submit pull requests. We welcome contributions to improve the website.
 
